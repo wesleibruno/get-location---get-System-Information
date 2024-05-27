@@ -14,8 +14,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <div className="flex space-x-4">
+      <main className="flex flex-col items-center justify-center w-full flex-1 px-4 sm:px-20 text-center">
+        <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4">
           <LocationCard />
           <SystemInfoCard />
           <AccessCountCard />
@@ -26,3 +26,4 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
